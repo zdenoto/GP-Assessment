@@ -1,4 +1,4 @@
-# GP-Assessment
+# GP-Assessment - Reddit Sentiment Analysis
 
 **Intro** - Everyday millions of people use Reddit.com, and is one of the top most visited websites in the world. This sentiment analysis looks at the GoPro subreddit to help track the number of subscribers for the subreddit, as well as determine if a post is positive or negative. With the results of this, we can track how positive or negative the posts are overall. The results of this could lead to a deeper dive to determine if there are issues with software or certain products to help out customers. 
 
