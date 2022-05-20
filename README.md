@@ -24,7 +24,7 @@
 
 ![image](https://user-images.githubusercontent.com/105872301/169600345-b8ea8e47-29f1-4334-b1b5-ae078c484a62.png)
 
-**Assumptions** - Reddit Data - Some Reddit API data doesn't have time attached. In this analysis for tracking the number of subscribers, I used a random number going back over a year to track the subscribers. In an ideal world, we would have a script pull the number at the same time daily and keep in in a database. I also only looked back to the last 100 reddit posts, ideally we would store the unique id's in a database to access more posts historically. This would help with the machine learning aspect as well.
+**Assumptions** - Reddit Data - Some Reddit API data doesn't have time attached. In this analysis for tracking the number of subscribers, I used a random number going back over a year to track the subscribers. In an ideal world, we would have a script pull the number of subscribers at the same time daily and keep in in a database. I also only looked back to the last 100 reddit posts, ideally we would store the unique id's in a database to access more posts historically. This would help with the machine learning aspect as well.
 
 Positive and Negative Data - The dataset used to determine if a post was positive or negative used a dataset from a twitter dataset instead of using reddit posts or data from the GoPro subreddit. With more time and data, we would ideally use GoPro posts and determine if they are positivie or negative and manually label the data ourselves to train the model.
 
