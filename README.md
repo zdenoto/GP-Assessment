@@ -2,6 +2,8 @@
 
 **Intro** - Everyday millions of people use Reddit.com, and is one of the top most visited websites in the world. This sentiment analysis looks at the GoPro subreddit to help track the number of subscribers for the subreddit, as well as determine if a post is positive or negative. With the results of this, we can track how positive or negative the posts are overall. The results of this could lead to a deeper dive to determine if there are issues with software or certain products to help out customers. 
 
+**Notes when running code** - Reddit API - The reddit API provides an access_token once every 24 hours to pull data with. If you run all line of the code mutliple times within the 24 hour period you will get an error when trying to run it after the first time. After the first time, you will have to paste the access_token from the first time running it as the variable 'access_token' to get the code to run fully. This is in the code as well to help fix the issue.
+
 **Tools** - Python
 
 **Data** - Link for the dataset: https://www.kaggle.com/datasets/crowdflower/twitter-airline-sentiment?resource=download
